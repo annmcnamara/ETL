@@ -42,8 +42,8 @@ We used Jupyter notebook to run the following transformations:
 •	Dropped the unrequired rows within the column that contained the country name (countries that were not needed).
 •	Cleaned up the inconsistency in the dates by ensuring that all dates followed a “month-end” date format.
 •	Provided the ability to clean up the inconsistency in the dates by ensuring that all dates follow a “month-begin” date format (if needed in the future).
-
-
+•	Renamed the columns to have intuitive names.
+•	Created Data Frame # 3 which contains big mac data implied exchange rate from the economomist. This data frame will be loaded into its own table in a database.
 ## Load:
 ### We created a Database and the 3 Tables needed for our project:
 We chose to use PostgreSQL as a Database because the data we are working with is very structured and will always be in a consistent format.
