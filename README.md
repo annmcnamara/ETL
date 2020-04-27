@@ -76,14 +76,28 @@ Please note that we chose table names that are as descriptive as possible. When 
 * We loaded data from Data Frame # 3 into the table called “combined_big_mac_table”.
 * We ran select statements from each of the 3 tables inside the PostgreSQL database and verified that all the data is in the 3 tables.
 
+#### TABLE 1: combined_big_mac_table
+
 <img src="/images/select_big_mac.png" 
      alt="Big Mac Table" width="500" />
 
+#### TABLE 2: combined_big_mac_table
+
+<img src="/images/select_dailypng.png" 
+     alt="Daily Table" width="500" />
+
+
+<img src="/images/select_monthly.png" 
+     alt="Monthly Table" width="500" />
 
 ### Sample Query
 We also extracted the actual Indian Rupee to USD exchange rate, and the implied Indian Rupee to USD exchange rate, by running a join statement joining the following tables:
 * aggregated_macro_economic_indicators_table_monthly (which contains data from the FRED website).
 * combined_big_mac_table (which contains data from the Economist magazine website).
 
+<img src="/images/target_analysis.png" 
+     alt="Query" width="600" />
 
+# Summary
+The above description demonstrates our team effort to successfully excecute Extract, Tranform and Load (ETL).  
 
