@@ -24,7 +24,7 @@
 We extracted data from 2 sources:
 ### FRED Website: 
 https://fred.stlouisfed.org/
-<img src="./images/data.jpeg"
+<img src="./images/fred.png"
      alt="Data Sources"
      style="float: center; margin-right: 10px;" />
 
