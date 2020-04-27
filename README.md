@@ -70,10 +70,7 @@ We created 3 tables as follows:
 3.	combined_big_mac_table.
 Please note that we chose table names that are as descriptive as possible. When dealing with economic data, the level of granularity is so high, that many companies prefer table names to be as descriptive as possible to ensure that there is no ambiguity whatsoever regarding the data stored in a table. 
 
-<img src="ER_Diagram.png"  style="horizontal-align:middle"
-     alt="ERD" width="700" />
-
-![Drag Racing](ER_Diagram.png | width=100 )
+![erd](ER_Diagram.png | width=50 )
 
 ### Loading Data into Tables in the Database:
 * We used a jupyter notebook to load data into the 3 tables in the database as follows:
