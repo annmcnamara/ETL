@@ -37,7 +37,7 @@ We used Jupyter Notebook to extract data using an API.
 
 ### The Economist Magazine Website: (https://www.economist.com/news/2020/01/15/the-big-mac-index)
 <img src="/images/big_mac.png" 
-     alt="fred" width="100"
+     alt="burgernomics" width="100"
      style="float: right; margin-right: 10px;" />
 
 We extracted data from a CSV file.
@@ -70,11 +70,16 @@ We created 3 tables as follows:
 3.	combined_big_mac_table.
 Please note that we chose table names that are as descriptive as possible. When dealing with economic data, the level of granularity is so high, that many companies prefer table names to be as descriptive as possible to ensure that there is no ambiguity whatsoever regarding the data stored in a table. 
 ### Loading Data into Tables in the Database:
-We used a jupyter notebook to load data into the 3 tables in the database as follows:
-We loaded data from Data Frame # 1 into the table called “combined_macro_eonomic_indicators_table_daily”.
-We loaded data from Data Frame # 2 into the table called “aggregated_macro_economic_indicators_table_monthly”.
-We loaded data from Data Frame # 3 into the table called “combined_big_mac_table”.
-We ran select statements from each of the 3 tables inside the PostgreSQL database and verified that all the data is in the 3 tables.
+* We used a jupyter notebook to load data into the 3 tables in the database as follows:
+* We loaded data from Data Frame # 1 into the table called “combined_macro_eonomic_indicators_table_daily”.
+* We loaded data from Data Frame # 2 into the table called “aggregated_macro_economic_indicators_table_monthly”.
+* We loaded data from Data Frame # 3 into the table called “combined_big_mac_table”.
+* We ran select statements from each of the 3 tables inside the PostgreSQL database and verified that all the data is in the 3 tables.
+
+<img src="/images/select_big_mac.png" 
+     alt="Big Mac Table" width="500" />
+
+
 ### Sample Query
 We also extracted the actual Indian Rupee to USD exchange rate, and the implied Indian Rupee to USD exchange rate, by running a join statement joining the following tables:
 * aggregated_macro_economic_indicators_table_monthly (which contains data from the FRED website).
