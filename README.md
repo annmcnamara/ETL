@@ -24,6 +24,7 @@ This project applies ETL to the the concept of "burgernomics" as detailed in the
 
 ### ETL
 ![query](/images/etl.png)
+
 ETL stands for for Extract, Transform, and Load, three separate functions that are combined into one project to extract data out of one or more data sources and place it into another datas store or database. 
 
 * **Extract** is the process of extracting data from one or more source(s). In the extract stage, data is gathered, often from multiple and different types of data sources.  In this example data is collected from API calls and a CSV file. 
