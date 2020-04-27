@@ -17,7 +17,8 @@
 4.	SQL File showing the SQL used to create the tables in the PostgreSQL database.
 
 ## Background
-This project examines the concept of "burgernomics" as detailed in the Economist magazine (https://www.economist.com/news/2020/01/15/the-big-mac-index). *"The big mac index was invented by The Economist in 1986 as a lighthearted guide to whether currencies are at their “correct” level. It is based on the theory of purchasing-power parity (PPP), the notion that in the long run exchange rates should move towards the rate that would equalise the prices of an identical basket of goods and services (in this case, a burger) in any two countries."*
+This project examines the concept of "burgernomics" as detailed in the Economist magazine . *"The big mac index was invented by The Economist in 1986 as a lighthearted guide to whether currencies are at their “correct” level. It is based on the theory of purchasing-power parity (PPP), the notion that in the long run exchange rates should move towards the rate that would equalise the prices of an identical basket of goods and services (in this case, a burger) in any two countries."*[(https://www.economist.com/news/2020/01/15/the-big-mac-index)]
+
 <img src="/images/big_mac.jpg" 
      alt="Big Mac" width="500" />
 
