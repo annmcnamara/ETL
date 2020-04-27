@@ -73,7 +73,7 @@ Please note that we chose table names that are as descriptive as possible. When 
 <img src="ER_Diagram.png"  style="horizontal-align:middle"
      alt="ERD" width="700" />
 
-![Drag Racing](ER_Diagram.png)
+![Drag Racing](ER_Diagram.png | width=100 )
 
 ### Loading Data into Tables in the Database:
 * We used a jupyter notebook to load data into the 3 tables in the database as follows:
