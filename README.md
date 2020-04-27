@@ -14,7 +14,7 @@
     *	01_Transform_BigMacIndex_CSV
     *	02_Load
 3.	Entity Relationship Diagram showing the details of the tables we created in our PostgreSQL database.
-4.	SQL File showing the SQL used to create the tables in the PostgreSQL database.
+4.	SQL File, *queries.sql* showing the SQL used to create the tables in the PostgreSQL database.
 
 ## Background
 This project examines the concept of "burgernomics" as detailed in the Economist magazine . *"The big mac index was invented by The Economist in 1986 as a lighthearted guide to whether currencies are at their “correct” level. It is based on the theory of purchasing-power parity (PPP), the notion that in the long run exchange rates should move towards the rate that would equalise the prices of an identical basket of goods and services (in this case, a burger) in any two countries."*[(https://www.economist.com/news/2020/01/15/the-big-mac-index)]
@@ -69,6 +69,11 @@ We created 3 tables as follows:
 2.	aggregated_macro_economic_indicators_table_monthly.
 3.	combined_big_mac_table.
 Please note that we chose table names that are as descriptive as possible. When dealing with economic data, the level of granularity is so high, that many companies prefer table names to be as descriptive as possible to ensure that there is no ambiguity whatsoever regarding the data stored in a table. 
+
+<img src="ER_Diagram.png" 
+     alt="ERD" width="500" />
+
+
 ### Loading Data into Tables in the Database:
 * We used a jupyter notebook to load data into the 3 tables in the database as follows:
 * We loaded data from Data Frame # 1 into the table called “combined_macro_eonomic_indicators_table_daily”.
@@ -76,16 +81,19 @@ Please note that we chose table names that are as descriptive as possible. When 
 * We loaded data from Data Frame # 3 into the table called “combined_big_mac_table”.
 * We ran select statements from each of the 3 tables inside the PostgreSQL database and verified that all the data is in the 3 tables.
 
+*Please click on images to see full resolution table*
+
 #### TABLE 1: combined_big_mac_table
 
 <img src="/images/select_big_mac.png" 
      alt="Big Mac Table" width="500" />
 
-#### TABLE 2: combined_big_mac_table
+#### TABLE 2: combined_macro_economic_indicators_table_daily
 
 <img src="/images/select_dailypng.png" 
      alt="Daily Table" width="500" />
 
+#### TABLE 3: aggregated_macro_economic_indicators_table_monthly
 
 <img src="/images/select_monthly.png" 
      alt="Monthly Table" width="500" />
