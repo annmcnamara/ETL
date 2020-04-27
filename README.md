@@ -21,7 +21,7 @@
 We extracted data from 2 sources:
 ### The Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
 <img src="/images/fred.png" 
-     alt="Data Sources" height="42" width="42"
+     alt="Data Sources" height="150" width="150"
      style="float: center; margin-right: 10px;" />
 
 We used Jupyter Notebook to extract data using an API. 
