@@ -17,23 +17,27 @@
 4.	SQL File, *queries.sql* showing the SQL used to create the tables in the PostgreSQL database.
 
 ## Background
-This project examines the concept of "burgernomics" as detailed in the Economist magazine . *"The big mac index was invented by The Economist in 1986 as a lighthearted guide to whether currencies are at their “correct” level. It is based on the theory of purchasing-power parity (PPP), the notion that in the long run exchange rates should move towards the rate that would equalise the prices of an identical basket of goods and services (in this case, a burger) in any two countries."*[(https://www.economist.com/news/2020/01/15/the-big-mac-index)]
+This project applies ETL to the the concept of "burgernomics" as detailed in the Economist magazine . *"The big mac index was invented by The Economist in 1986 as a lighthearted guide to whether currencies are at their “correct” level. It is based on the theory of purchasing-power parity (PPP), the notion that in the long run exchange rates should move towards the rate that would equalise the prices of an identical basket of goods and services (in this case, a burger) in any two countries."*[(https://www.economist.com/news/2020/01/15/the-big-mac-index)]
 
 <img src="/images/big_mac.jpg" 
      alt="Big Mac" width="500" />
 
+### ETL
+![query](/images/etl.png)
+
+
 ## Extraction:
 
-We extracted data from 2 sources:
+We extracted data from two separate sources:
 ### The Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
 <img src="/images/fred.png" 
      alt="fred" width="100"
      style="float: right; margin-right: 10px;" />
 
 We used Jupyter Notebook to extract data using an API. 
-* 4 economic indicators related to the stock markets (Dow Jones Industrial Average, Nasdaq, S&P 500 and the Willshire 5000).
-* 4 economic indicators related to the commodity markets (Brent Crude Oil, WTI Crude Oil, Henry Hub Natural Gas and Gold).
-* 4 economic indicators related to the foreign currency exchange rate markets (Chinese Yuan to US Dollar, Indian Rupee to US Dollar, Japanese Yen to US Dollar, European Union Euro to US Dollar).
+* Four economic indicators related to the stock markets (Dow Jones Industrial Average, Nasdaq, S&P 500 and the Willshire 5000).
+* Four economic indicators related to the commodity markets (Brent Crude Oil, WTI Crude Oil, Henry Hub Natural Gas and Gold).
+* Four economic indicators related to the foreign currency exchange rate markets (Chinese Yuan to US Dollar, Indian Rupee to US Dollar, Japanese Yen to US Dollar, European Union Euro to US Dollar).
 
 ### The Economist Magazine Website: (https://www.economist.com/news/2020/01/15/the-big-mac-index)
 <img src="/images/big_mac.png" 
@@ -44,7 +48,7 @@ We extracted data from a CSV file.
 * The implied exchange rates calculated by the Economist based on the price of a McDonalds Big Mac in different countries across the world. We were interested in seeing how these “implied exchange rates” would compare to the actual exchange rates reported by the FRED website for the 4 exchange rates that we extracted. 
 
 ## Transformation:
-We ran 2 Transformations:
+We ran two Transformations:
 ### Data extracted via the API:
 We used jupyter notebook to run the following transformations:
 * Dropped rows containing “N/A”, spaces or periods instead of actual values.
@@ -105,5 +109,5 @@ We also extracted the actual Indian Rupee to USD exchange rate, and the implied 
 ![query](/images/target_analysis.png)
 
 # Summary
-The above description demonstrates our team effort to successfully excecute Extract, Tranform and Load (ETL).  
+The above description demonstrates our team capability to successfully apply Extract, Tranform and Load (ETL).  
 
