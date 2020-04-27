@@ -21,8 +21,8 @@
 We extracted data from 2 sources:
 ### The Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
 <img src="/images/fred.png" 
-     alt="Data Sources" height="150" width="150"
-     style="float: left; margin-right: 10px;" />
+     alt="Data Sources" height="300" width="300"
+     style="float: right; margin-right: 10px;" />
 
 We used Jupyter Notebook to extract data using an API. 
 * 4 economic indicators related to the stock markets (Dow Jones Industrial Average, Nasdaq, S&P 500 and the Willshire 5000).
