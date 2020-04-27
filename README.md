@@ -17,13 +17,10 @@
 4.	SQL File showing the SQL used to create the tables in the PostgreSQL database.
 
 ## Extraction:
-<img src="datasources.png" width = 100px, 
-     alt="data sources icon"
-     style="float: center; margin-right: 10px;" />
 
 We extracted data from 2 sources:
-### Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
-<img src="/images/fred.png"
+### The Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
+<img src="/images/fred.png", width= 50px,
      alt="Data Sources"
      style="float: center; margin-right: 10px;" />
 
@@ -31,8 +28,8 @@ We used Jupyter Notebook to extract data using an API.
 * 4 economic indicators related to the stock markets (Dow Jones Industrial Average, Nasdaq, S&P 500 and the Willshire 5000).
 * 4 economic indicators related to the commodity markets (Brent Crude Oil, WTI Crude Oil, Henry Hub Natural Gas and Gold).
 * 4 economic indicators related to the foreign currency exchange rate markets (Chinese Yuan to US Dollar, Indian Rupee to US Dollar, Japanese Yen to US Dollar, European Union Euro to US Dollar).
-### Economist Magazine Website:
-https://www.economist.com/news/2020/01/15/the-big-mac-index
+### The Economist Magazine Website: (https://www.economist.com/news/2020/01/15/the-big-mac-index)
+
 
 We extracted data from a CSV file.
 * The implied exchange rates calculated by the Economist based on the price of a McDonalds Big Mac in different countries across the world. We were interested in seeing how these “implied exchange rates” would compare to the actual exchange rates reported by the FRED website for the 4 exchange rates that we extracted. 
