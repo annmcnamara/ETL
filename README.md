@@ -82,9 +82,10 @@ Please note that we chose table names that are as descriptive as possible. When 
 *Please click on images to see full resolution table*
 
 #### TABLE 1: combined_big_mac_table
+![cbm](select_big_mac.png)
 
-<img src="/images/select_big_mac.png" 
-     alt="Big Mac Table" width="500" />
+<!-- <img src="/images/select_big_mac.png" 
+     alt="Big Mac Table" width="500" /> -->
 
 #### TABLE 2: combined_macro_economic_indicators_table_daily
 
