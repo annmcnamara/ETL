@@ -20,7 +20,7 @@
 
 We extracted data from 2 sources:
 ### The Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
-<img src="/images/fred.png", width= "50px",
+<img src="/images/fred.png", width= 10px,
      alt="Data Sources"
      style="float: center; margin-right: 10px;" />
 
