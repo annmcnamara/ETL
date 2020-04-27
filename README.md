@@ -82,14 +82,8 @@ Please note that we chose table names that are as descriptive as possible. When 
 *Please click on images to see full resolution table*
 
 #### TABLE 1: combined_big_mac_table
-![](/images/select_big_mac.png) {
-  width: 70%;
-  border: none;
-  background: none;
-}
-
-<!-- <img src="/images/select_big_mac.png" 
-     alt="Big Mac Table" width="500" /> -->
+<img src="/images/select_big_mac.png" 
+     alt="Big Mac Table" width="500" /> 
 
 #### TABLE 2: combined_macro_economic_indicators_table_daily
 
@@ -106,8 +100,9 @@ We also extracted the actual Indian Rupee to USD exchange rate, and the implied 
 * aggregated_macro_economic_indicators_table_monthly (which contains data from the FRED website).
 * combined_big_mac_table (which contains data from the Economist magazine website).
 
-<img src="/images/target_analysis.png" 
-     alt="Query" width="600" />
+<!-- <img src="/images/target_analysis.png" 
+     alt="Query" width="600" /> -->
+![query](/images/target_analysis.png)
 
 # Summary
 The above description demonstrates our team effort to successfully excecute Extract, Tranform and Load (ETL).  
