@@ -1,7 +1,11 @@
 # ETL Project
-Extract Transform Load 
- 
-## This repository contains the files regarding an ETL (Extraction, Transformation and Load) exercise conducted by our group. This folder contains the following:
+## Extract Transform Load 
+### Team Members
+* *Swati Saxena*
+* *Firdosh Patel*
+* *Ann McNamara*
+
+### This repository contains the files regarding an ETL (Extraction, Transformation and Load) exercise conducted by our group. This folder contains the following:
 1.	CSV Files:
     *	00_Extract_BigMacIndex_CSV
 2.	Jupyter Notebook files:
@@ -12,18 +16,27 @@ Extract Transform Load
 3.	Entity Relationship Diagram showing the details of the tables we created in our PostgreSQL database.
 4.	SQL File showing the SQL used to create the tables in the PostgreSQL database.
 
-
 ## Extraction:
+<img src="datasources.png"
+     alt="data sources icon"
+     style="float: center; margin-right: 10px;" />
+
 We extracted data from 2 sources:
 ### FRED Website: 
+https://fred.stlouisfed.org/
+<img src="./images/data.jpeg"
+     alt="Data Sources"
+     style="float: center; margin-right: 10px;" />
+
 We used Jupyter Notebook to extract data using an API. 
 * 4 economic indicators related to the stock markets (Dow Jones Industrial Average, Nasdaq, S&P 500 and the Willshire 5000).
 * 4 economic indicators related to the commodity markets (Brent Crude Oil, WTI Crude Oil, Henry Hub Natural Gas and Gold).
 * 4 economic indicators related to the foreign currency exchange rate markets (Chinese Yuan to US Dollar, Indian Rupee to US Dollar, Japanese Yen to US Dollar, European Union Euro to US Dollar).
 ### Economist Magazine Website:
+https://www.economist.com/news/2020/01/15/the-big-mac-index
+
 We extracted data from a CSV file.
 * The implied exchange rates calculated by the Economist based on the price of a McDonalds Big Mac in different countries across the world. We were interested in seeing how these “implied exchange rates” would compare to the actual exchange rates reported by the FRED website for the 4 exchange rates that we extracted. 
-
 
 ## Transformation:
 We ran 2 Transformations:
