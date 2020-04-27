@@ -17,13 +17,12 @@
 4.	SQL File showing the SQL used to create the tables in the PostgreSQL database.
 
 ## Extraction:
-<img src="datasources.png"
+<img src="datasources.png" width = 100px, 
      alt="data sources icon"
      style="float: center; margin-right: 10px;" />
 
 We extracted data from 2 sources:
-### FRED Website: 
-https://fred.stlouisfed.org/
+### Federal Reserve Economic Data (FRED) Website: (https://fred.stlouisfed.org/)
 <img src="/images/fred.png"
      alt="Data Sources"
      style="float: center; margin-right: 10px;" />
