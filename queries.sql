@@ -3,7 +3,6 @@ select * from combined_macro_economic_indicators_table_daily
 select * from aggregated_macro_economic_indicators_table_monthly
 
 -- JOIN
-select bigmac_eurusd from combined_big_mac_table;
 select m.date, m.inrusd, bm.date, bm.bigmac_inrusd from aggregated_macro_economic_indicators_table_monthly m, combined_big_mac_table bm 
 where m.date = bm.date;
 
@@ -24,4 +23,3 @@ SET over_under_valued = 'UNDER'
 WHERE inrusd < bigmac_inrusd;
 
 select * from India;
-
