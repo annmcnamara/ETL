@@ -82,7 +82,7 @@ Please note that we chose table names that are as descriptive as possible. When 
 *Please click on images to see full resolution table*
 
 #### TABLE 1: combined_big_mac_table
-![cbm](/images/select_big_mac.png=250x250)
+![](/images/select_big_mac.png =250x250)
 
 <!-- <img src="/images/select_big_mac.png" 
      alt="Big Mac Table" width="500" /> -->
