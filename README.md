@@ -115,6 +115,17 @@ We also extracted the actual Indian Rupee to USD exchange rate, and the implied 
      alt="Query" width="600" /> -->
 ![query](/images/target_analysis.png)
 
+## Justification for Selecting PostGreSQL over mongoDB
+Justification for why we chose PostGreSQL (relational) instead of MongoDB for our ETL Project:
+### Use Relational SQL Databases When:
+* ACID (Atomicity, Consistency, Isolation, Durability) principles are enforced. This reduces anomalies, enforces integrity and that is why this is preferred for commerce and financial applications.
+* Data structure is not changing. If you application design is solid and not expected to be changing with future requirements (at least not very often) then it is best to  proceed to use this type of construct and be confident in your data.
+### Use Non-Relational No-SQL Databases When:
+* Rapid Application Development is used. No-SQL database supporting rapidly changing designs and coding sprints and is perfect for more Agile settings, where requirements change often.
+*  Storing large amounts of data with little to no structure. Much like expressed in the previous point, if your data requirements are not clear, bu you know that you need to store lots of data somewhere and somehow, then you can use this database type, which you can morph on the fly to match the requirement.
+
+Based on the fact our data structure is not chaning and we want to enforce ACID principles we are confident using a relational database is a good choice for storing this data. 
+
 # Summary
 The above description demonstrates our team capability to successfully apply Extract, Tranform and Load (ETL).  
 
